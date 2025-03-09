@@ -5,7 +5,7 @@ import Notes from "./notes";
 // Chicken by jeremy [CC-BY] via Poly Pizza
 
 function App() {
-  const [showNotes, setShowNotes] = useState(false);
+  const [showNotes, setShowNotes] = useState(true);
 
   useEffect(() => {
     const world = new World();
